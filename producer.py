@@ -1,8 +1,6 @@
-from time import sleep
-import json
 from kafka import KafkaProducer
 from kafka.errors import KafkaError
-from getpass import getpass
+
 bootstrap_servers=['localhost:9092'] # default: localhost:9092
 
 # Remember: topics must be created using kafka-topics.sh script
